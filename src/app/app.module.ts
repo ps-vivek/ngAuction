@@ -14,8 +14,7 @@ import { StarsComponent } from './stars/stars.component';
 import { ProductService } from './shared/product.service';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {AuctionMaterialModule} from "./auction-material/auction-material.module";
-// npm install --legacy-peer-deps
-//ng add @angular/material
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -33,7 +32,8 @@ import {AuctionMaterialModule} from "./auction-material/auction-material.module"
   NgbModule,
   BrowserModule,
   AppRoutingModule,
-  AuctionMaterialModule
+  AuctionMaterialModule,
+  FormsModule
   ],
   providers: [ProductService],
   bootstrap: [AppComponent]
