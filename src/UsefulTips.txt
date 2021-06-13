@@ -1,0 +1,15 @@
+//Installing Icons from npm:
+https://developers.google.com/fonts/docs/material_icons
+npm install material-design-icons
+
+//Updating peer dependencies
+npm install --legacy-peer-deps
+
+//Bootstrap import
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+//Indigo theme
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+
+
